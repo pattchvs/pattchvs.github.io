@@ -148,3 +148,15 @@ function initMap() {
       ]
     });
 }
+
+function aviso(){
+  
+  console.log('clicado')
+  alert('Pagina em construção.')
+
+}
+function mouse(){
+  document.querySelector('#projetos').addEventListener('mouseover',() => {
+    document.querySelector('#projetos').style.cursor = 'pointer';
+  });
+}
